@@ -13,3 +13,8 @@ dependencies = [
     "torchsummary>=1.5.1",
     "torchvision>=0.22.1",
 ]
+
+[tool.uv.workspace]
+members = [
+    "experiments",
+]
